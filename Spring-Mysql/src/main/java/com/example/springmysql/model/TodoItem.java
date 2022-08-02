@@ -8,7 +8,6 @@ import javax.persistence.GeneratedValue;
 @Entity
 public class TodoItem {
     private long ıd;
-    @NotBlank
     private String title;
     private boolean done;
 
